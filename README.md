@@ -11,7 +11,7 @@ this project includes first page of portfolio website designed specifically to w
 
 ## Getting started 
 this project has used template number two from the templates that microverse has provided .
-<br>![template #2](https://github.com/yasinabdmahmood/portfolio-website/blob/ADD-FIRST-PAGE-TO-PORTFOLIO/img/project-screenshot)
+<br>![template #2](https://github.com/yasinabdmahmood/portfolio-website/blob/ADD-FIRST-PAGE-TO-PORTFOLIO/img/project-screenshot.PNG)
 <br>the user of this repo can use this design and modify the information with thiers then add 
 <br>logic to its buttons via javascript to make it interactive . 
 <br><br><br>
