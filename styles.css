@@ -68,6 +68,7 @@
 }
 
 .john-doe {
+  text-decoration: none;
   width: 77px;
   height: 24px;
   margin-left: 15px;
@@ -179,11 +180,11 @@
 }
 
 .recent-work {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 83px 104px 237px 24px 285px 36px 2400px;
   align-items: center;
   padding: 120px 0;
-  gap: 80px;
   position: absolute;
   width: 375px;
   height: 3455px;
@@ -192,20 +193,29 @@
 }
 
 .my-recent-works {
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
   width: 327px;
   height: 83px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400 bold;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #1c1a19;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   border-bottom: 1px solid #212121;
+}
+
+.img {
+  grid-column: 2/span 1;
+  grid-row: 3/span 1;
+}
+
+.section-a {
+  grid-column: 2/span 1;
+  grid-row: 5/span 1;
 }
 
 .image-place-holder1 {
@@ -249,8 +259,10 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  max-width: 300px;
+  width: 400px;
   flex-wrap: wrap;
+  position: relative;
+  right: 40px;
 }
 
 .css-code {
@@ -273,8 +285,9 @@
 
 .see-project {
   box-sizing: border-box;
-  color: #091e42;
+  color: #fff;
   padding: 10px 12px;
+  margin-left: 40px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500 bold;
@@ -291,6 +304,8 @@
 }
 
 .grid-container {
+  grid-column: 1/span 1;
+  grid-row: 7/span 1;
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-template-rows: auto auto auto auto auto auto;
@@ -420,23 +435,25 @@
   color: #fff;
 }
 
-.see-project2 {
-  color: #091e42;
+.see-project3 {
+  box-sizing: border-box;
+  color: #fff;
   padding: 10px 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500 bold;
+  text-align: center;
   font-size: 15px;
   line-height: 20px;
   padding-left: 23px;
   padding-right: 23px;
   background: #ff6b00;
-  flex: 1;
+  flex: none;
   order: 0;
-  width: 254px;
-  height: 48px;
-  justify-content: center;
+  flex-grow: 0;
+  justify-content: start;
   text-decoration: none;
+  width: 300px;
 }
 
 .last-section {
@@ -446,9 +463,9 @@
   left: 0;
   top: 4137px;
   background: #1c1a19;
-  background-image: url(img2/Frame.svg);
-  background-repeat: no-repeat;
-  background-position: right top 350px;
+  background-image: url(img2/Frame.svg), url(img/M.svg), url(img/S.svg), url(img/c.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right top 350px, left 80px top 1470px, left 50px top 1130px, left 50px top 835px;
 }
 
 .about-me {
@@ -472,9 +489,10 @@
 }
 
 .paragragh1 {
-  text-align: center;
+  text-align: left;
   position: relative;
   top: -100px;
+  left: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -491,8 +509,8 @@
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 161px;
-  height: 48px;
+  width: 140px;
+  height: 20px;
   background: #ff6b00;
   flex: none;
   order: 2;
@@ -545,4 +563,8 @@
   align-items: center;
   text-align: center;
   color: #fff;
+}
+
+.list-item {
+  display: inline;
 }
