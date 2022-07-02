@@ -177,3 +177,484 @@
   right: 0%;
   top: 39%;
 }
+
+.recent-work{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 120px 0px;
+gap: 80px;
+
+position: absolute;
+width: 375px;
+height: 3455px;
+left: 0px;
+top: 682px;   /*to be changed to 682 later*/
+
+}
+
+.my-recent-works{
+  width: 327px;
+height: 83px;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400 bold;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #1C1A19;
+flex: none;
+order: 0; 
+flex-grow: 0;
+border-bottom: 1px solid #212121;
+}
+
+
+
+
+.image-place-holder1{
+  width: 327px;
+height: 237px;
+
+flex: none;
+
+flex-grow: 0;
+}
+
+.post-title{
+  width: 327px;
+height: 36px;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #091E42;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.supporting-text2{
+  width: 327px;
+height: 147px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #091E42;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.code-links{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 300px;
+  flex-wrap: wrap;
+}
+
+.css-code{
+  box-sizing: border-box;
+  color: #091E42;
+
+
+
+padding: 10px 12px;
+font-family: 'Inter';
+font-style:normal;
+font-weight: 500 bold;
+font-size: 15px;
+line-height: 20px;
+
+
+
+
+
+background: #FFFFFF;
+
+
+border: 1px solid #8993A4;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+justify-content: start;
+text-decoration: none;
+}
+
+.see-project{
+  box-sizing: border-box;
+  color: #091E42;
+
+
+
+padding: 10px 12px;
+font-family: 'Inter';
+font-style:normal;
+font-weight: 500 bold;
+font-size: 15px;
+line-height: 20px;
+padding-left: 23px;
+padding-right: 23px;
+
+
+
+
+
+background: #FF6B00;
+
+
+
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+justify-content: start;
+text-decoration: none;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto auto auto auto auto auto;
+  row-gap: 15px;
+  width: 375px;
+
+}
+
+.imgPlaceholder2{
+  width:300px ;
+  height: 340px;
+  grid-column: 2 / span 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+  background-image: url("img2/ImgPlaceholder2.jpg");
+  
+  
+}
+
+.card1{
+  grid-row: 1 / span 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding-left: 40px;
+  
+ 
+  
+}
+
+.card2{
+  grid-row: 2 / span 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding-left: 40px;
+}
+
+.card3{
+  grid-row: 3 / span 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding-left: 40px;
+}
+
+.card4{
+  grid-row: 4 / span 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding-left: 40px;
+}
+
+.card5{
+  grid-row: 5 / span 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding-left: 40px;
+}
+
+.card6{
+  grid-row: 6 / span 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  padding-left: 40px;
+}
+
+.post-title2{
+ 
+ text-align: start;
+ 
+  width: 295px;
+height: 81px;
+padding-left: 10px;
+padding-top: 35px;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400 ;
+font-size: 35px;
+line-height: 44px;
+
+
+
+
+
+color: #FFFFFF;
+
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.suppoting-text3{
+ 
+  position: relative;
+  padding-left: 20px;
+bottom: 55px;
+width: 295px;
+height: 87px;
+font-family: 'Inter';
+font-style:normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+
+
+color: #FFFFFF;
+
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.code-links2{
+  padding-left: 17px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 300px;
+  
+  
+  gap: 15px;
+}
+.css-code2{
+  display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;
+bottom: 75px;
+width: 56px;
+height: 30px;
+background: rgba(255, 255, 255, 0.24);
+flex-shrink: 1;
+flex-grow: 0;
+justify-content: center;
+text-decoration: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 20px;
+
+
+color: #FFFFFF;
+}
+
+.see-project2{
+  
+  color: #091E42;
+
+
+
+padding: 10px 12px;
+font-family: 'Inter';
+font-style:normal;
+font-weight: 500 bold;
+font-size: 15px;
+line-height: 20px;
+padding-left: 23px;
+padding-right: 23px;
+background: #FF6B00;
+flex: 1;
+order: 0;
+width: 254px;
+height: 48px;
+justify-content: center;
+text-decoration: none;
+}
+
+.last-section{
+  position: absolute;
+width: 375px;
+height: 1901px;
+left: 0px;
+top: 4137px;
+background: #1C1A19;
+background-image: url(img2/Frame.svg) ;
+background-repeat: no-repeat;
+background-position: right top 350px;
+}
+.about-me{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+
+}
+
+.text1{
+  
+  text-align: center;
+
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 88px;
+
+
+letter-spacing: 0.37px;
+color: #FF6B00;
+order: 0;
+flex-grow: 0;
+}
+
+.paragragh1{
+  text-align: center;
+  
+  
+  position: relative;
+  top:-100px;
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #F4F5F7;
+
+
+
+
+order: 1;
+flex-grow: 0;
+}
+
+.resume{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+width: 161px;
+height: 48px;
+
+
+background: #FF6B00;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+text-decoration: none;
+margin-left: 25px;
+position: relative;
+  top:-100px;
+
+
+color: #FFFFFF;
+
+
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 164px;
+  height: 24px;
+  padding-left: 100px;
+  padding-top: 150px;
+  
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  
+}
+
+.class1{
+ color: #FFFFFF;
+ padding-top: 40px;
+ list-style: none;
+}
+.language{
+  list-style: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 43px;
+padding-top: 40px;
+position: relative;
+right: 25px;
+
+
+
+
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+
+
