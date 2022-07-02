@@ -18,8 +18,12 @@
   width: 375px;
   top: 92px;
   background: #1c1a19;
+  background-image: url("img/Illustration.svg");
+  background-repeat: no-repeat;
+  /* background: #1c1a19; */
   height: 590px;
   left: 0;
+  
 }
 
 .bars-status-dark {
