@@ -463,9 +463,9 @@
   left: 0;
   top: 4137px;
   background: #1c1a19;
-  background-image: url(img2/Frame.svg), url(img/M.svg), url(img/S.svg), url(img/c.svg);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: right top 350px, left 80px top 1470px, left 50px top 1130px, left 50px top 835px;
+  background-image: url(img2/Frame.svg);
+  background-repeat: no-repeat;
+  background-position: right top 350px;
 }
 
 .about-me {
@@ -548,6 +548,8 @@
   color: #fff;
   padding-top: 40px;
   list-style: none;
+  width: 500px;
+  text-align: center;
 }
 
 .language {
@@ -567,4 +569,8 @@
 
 .list-item {
   display: inline;
+}
+
+.icon-img2 {
+  float: none;
 }
