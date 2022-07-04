@@ -529,6 +529,12 @@
   color: #fff;
 }
 
+.horizontal-line{
+  position: relative;
+  top:130px;
+  width: 80%;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
