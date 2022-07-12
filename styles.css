@@ -171,6 +171,7 @@
 .cat-icon {
   min-width: 50%;
   min-height: 50%;
+  margin-right: 10px;
 }
 
 .vector {
@@ -581,7 +582,7 @@
   float: none;
 }
 
-.form-section{
+.form-section {
   top: 6038px;
   display: flex;
   flex-direction: column;
@@ -591,66 +592,91 @@
   width: 375px;
   position: relative;
 }
-.main-heading{
-  font-family: 'Inter';
+
+.main-heading {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 120px;
-  }
-  .form{
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 375px;
-    border-bottom: 2px solid  #DFE1E6;
-    padding-bottom: 100px;
-  }
-  .full-name{
-    box-sizing: border-box;
-    padding-left: 20px;
-    border: 0px;
-    border-bottom: 2px solid #DBD8D7;
-    margin-bottom: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #979493;
-    align-self: stretch;
-    width: 330px;
-  }
-  .message{
-    box-sizing: border-box;
-    padding: 12px;
-    background: #FBF8F7;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    width: 327px;
-    height: 114px;
-    color: #3C3A39;
-    border: 0px;
-  }
-  .submit-button{
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 17px;
-   line-height: 24px;
-   color: #FFFFFF;
-   background: #FF6B00;
-   width: 131px;
-   height: 48px;
-   margin-top: 24px;
-   border: 0px;
-  }
-  
+}
+
+.form {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  border-bottom: 2px solid  #dfe1e6;
+  padding-bottom: 100px;
+}
+
+.full-name {
+  box-sizing: border-box;
+  padding-left: 20px;
+  border: 0;
+  border-bottom: 2px solid #dbd8d7;
+  margin-bottom: 25px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  align-self: stretch;
+  width: 330px;
+}
+
+.message {
+  box-sizing: border-box;
+  padding: 12px;
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 327px;
+  height: 114px;
+  color: #3c3a39;
+  border: 0;
+}
+
+.submit-button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  width: 131px;
+  height: 48px;
+  margin-top: 24px;
+  border: 0;
+}
+
+.footer2 {
+  justify-content: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-items: start;
+  align-items: center;
+  padding-left: 0;
+  min-width: 20px;
+}
+
+.hr {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+}
