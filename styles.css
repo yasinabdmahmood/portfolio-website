@@ -581,4 +581,13 @@
   float: none;
 }
 
-
+.form-section{
+  top: 6038px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: white;
+  width: 375px;
+  position: relative;
+}
