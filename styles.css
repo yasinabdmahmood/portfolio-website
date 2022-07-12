@@ -459,7 +459,7 @@
 
 .last-section {
   position: absolute;
-  width: 375px;
+  width: 100vw;
   height: 1901px;
   left: 0;
   top: 4137px;
@@ -589,7 +589,7 @@
   align-items: center;
   flex-wrap: nowrap;
   background: white;
-  width: 375px;
+  width: 100vw;
   position: relative;
 }
 
