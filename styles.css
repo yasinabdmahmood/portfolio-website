@@ -481,7 +481,7 @@
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 5.4rem;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -536,12 +536,18 @@
   width: 80%;
 }
 
+.sec2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
 .footer {
   display: flex;
+  padding: 0px;
   flex-direction: column;
-  width: 164px;
+  width: 50%;
   height: 24px;
-  padding-left: 100px;
   padding-top: 150px;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
@@ -555,7 +561,7 @@
   color: #fff;
   padding-top: 40px;
   list-style: none;
-  width: 500px;
+  width: 100%;
   text-align: center;
 }
 
