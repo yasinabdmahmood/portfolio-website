@@ -11,7 +11,8 @@ this project includes first page of portfolio website designed specifically to w
 
 ## Getting started 
 this project has used template number two from the templates that microverse has provided .
-<br>![template #2](https://github.com/yasinabdmahmood/portfolio-website/blob/ADD-FIRST-PAGE-TO-PORTFOLIO/img/project-screenshot.PNG)
+<br>![template #2](https://github.com/yasinabdmahmood/portfolio-website/blob/add-contact-me-form/img/project-screenshot.PNG)
+<br>[the link for the figma page is here](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=1%3A1471)
 <br>the user of this repo can use this design and modify the information with thiers then add 
 <br>logic to its buttons via javascript to make it interactive . 
 <br><br><br>
