@@ -2,7 +2,10 @@
 body {
   margin: 0%;
 }
-
+.logo{
+  display: none;
+  
+}
 .tool-bar {
   position: relative;
   display: flex;
@@ -734,6 +737,25 @@ body {
   body {
     display: flex;
     flex-direction: column;
+  }
+
+  .logo{
+    display: unset;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 100px;
+    height: 100px;
+    animation: rotation 1s linear forwards;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .head-line {
