@@ -918,7 +918,6 @@ body {
 
   .my-recent-works {
     all: unset;
-    grid-area: 2/2/3/3;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -929,6 +928,13 @@ body {
     align-items: center;
     color: #091e42;
     margin: 0%;
+  }
+
+  .couple {
+    grid-area: 2/2/3/3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .img,
@@ -991,12 +997,22 @@ body {
     display: flex;
     justify-content: flex-end;
     grid-area: 1/1/2/2;
-    background-image: url("img2/card1.png");
+    background-image: url("img2/ImgPlaceholder2.jpg");
     height: 100%;
   }
 
-  .card1 div * {
-    display: none;
+  .imgPlaceholder2 {
+    all: unset;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-left: 15px;
+  }
+
+  .card1 .imgPlaceholder2 {
+    height: 32vh;
   }
 
   .card2 {
@@ -1004,7 +1020,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     grid-area: 1/2/2/3;
-    background-image: url("img2/card2.png");
+    background-image: url("img2/ImgPlaceholder2.jpg");
   }
 
   .card2 div .post-title2,
@@ -1028,16 +1044,6 @@ body {
     display: none;
   }
 
-  .imgPlaceholder2 {
-    all: unset;
-    margin-bottom: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 10px;
-    padding-left: 15px;
-  }
-
   .suppoting-text3,
   .code-links2 {
     padding: 0%;
@@ -1059,13 +1065,14 @@ body {
 
   .card3 {
     grid-area: 1/3/2/4;
-    background-image: url("img2/card3.png");
+    background-image: url("img2/ImgPlaceholder2.jpg");
   }
 
   .card3 div .post-title2 {
     display: none;
   }
 
+  .card1 .see-project3,
   .card3 .see-project3,
   .card5 .see-project3,
   .card4 .see-project3,
@@ -1080,7 +1087,7 @@ body {
 
   .card5 {
     grid-area: 2/2/3/3;
-    background-image: url("img2/card2.png");
+    background-image: url("img2/ImgPlaceholder2.jpg");
   }
 
   .card5 div .post-title2 {
@@ -1089,7 +1096,34 @@ body {
 
   .card6 {
     grid-area: 2/3/3/4;
-    background-image: url("img2/card3.png");
+    background-image: url("img2/ImgPlaceholder2.jpg");
+  }
+
+  .card1:hover > .imgPlaceholder2,
+  .card2:hover > .imgPlaceholder2,
+  .card3:hover > .imgPlaceholder2,
+  .card4:hover > .imgPlaceholder2,
+  .card5:hover > .imgPlaceholder2,
+  .card6:hover > .imgPlaceholder2 {
+    display: none;
+  }
+
+  .card1:hover > .see-project3,
+  .card2:hover > .see-project3,
+  .card3:hover > .see-project3,
+  .card4:hover > .see-project3,
+  .card5:hover > .see-project3,
+  .card6:hover > .see-project3 {
+    display: unset;
+  }
+
+  .card1:hover,
+  .card2:hover,
+  .card3:hover,
+  .card4:hover,
+  .card5:hover,
+  .card6:hover {
+    background-image: url("img2/card1.png");
   }
 
   .supporting-text2 {
