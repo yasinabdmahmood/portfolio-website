@@ -1013,6 +1013,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    transition: transform .25s;
+  }
+    
+  .card1:hover,
+  .card2:hover,
+  .card3:hover,
+  .card4:hover,
+  .card5:hover,
+  .card6:hover{
+    transform: scale(1.1);
   }
 
   .card1 {
