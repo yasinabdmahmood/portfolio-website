@@ -1265,7 +1265,13 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #fff;
+    transition:background-color 0.25s ;
   }
+
+  .resume:hover{
+    background-color:blue
+  }
+
 
   .horizontal-line {
     all: unset;
