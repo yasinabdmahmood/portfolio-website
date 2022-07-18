@@ -8,7 +8,7 @@ this project includes first page of portfolio website designed specifically to w
 * css
 * linter
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://yasinabdmahmood.github.io/portfolio-website/)
 
