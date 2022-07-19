@@ -1,6 +1,9 @@
-
 body {
   margin: 0%;
+}
+
+.hidden-label {
+  display: none;
 }
 
 .logo {
@@ -80,7 +83,7 @@ body {
   width: 77px;
   height: 24px;
   margin-left: 5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -102,7 +105,7 @@ body {
 .primary-text {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -117,7 +120,7 @@ body {
 .supporting-text {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -134,7 +137,7 @@ body {
   margin-bottom: 0;
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -208,11 +211,11 @@ body {
 }
 
 .my-recent-works {
-  grid-column: 2/span 1;
-  grid-row: 1/span 1;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
   width: 327px;
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400 bold;
   font-size: 35px;
@@ -228,14 +231,14 @@ body {
 }
 
 .img {
-  grid-column: 2/span 1;
-  grid-row: 3/span 1;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
 }
 
 .section-a {
   margin-top: 50px;
-  grid-column: 2/span 1;
-  grid-row: 5/span 1;
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
 }
 
 .section-a ul {
@@ -256,7 +259,7 @@ body {
   width: 327px;
   height: 36px;
   margin: 0 0 10px 0;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5rem;
@@ -272,7 +275,7 @@ body {
 .supporting-text2 {
   width: 327px;
   height: 147px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -295,7 +298,7 @@ body {
   box-sizing: border-box;
   color: #091e42;
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500 bold;
   font-size: 15px;
@@ -314,7 +317,7 @@ body {
   color: #fff;
   padding: 10px 12px;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500 bold;
   font-size: 15px;
@@ -331,8 +334,8 @@ body {
 
 .grid-container {
   padding: 0;
-  grid-row: 7/span 1;
-  grid-column: 2/span 1;
+  grid-row: 7 / span 1;
+  grid-column: 2 / span 1;
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-template-rows: auto auto auto auto auto auto;
@@ -407,7 +410,7 @@ body {
 .card5,
 .card6 {
   width: 100%;
-  grid-column: 1/span 3;
+  grid-column: 1 / span 3;
   padding: 0%;
 }
 
@@ -419,7 +422,7 @@ body {
   height: 81px;
   padding-left: 18px;
   padding-top: 35px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -436,7 +439,7 @@ body {
   bottom: 55px;
   width: 295px;
   height: 87px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -469,7 +472,7 @@ body {
   flex-grow: 0;
   justify-content: center;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -481,7 +484,7 @@ body {
   box-sizing: border-box;
   color: #fff;
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500 bold;
   text-align: center;
@@ -522,7 +525,7 @@ body {
   margin-bottom: 0;
   font-size: 19vw;
   text-align: center;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 88px;
@@ -535,7 +538,7 @@ body {
 .paragragh1 {
   text-align: left;
   margin-left: 8vw;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 4vw;
@@ -557,7 +560,7 @@ body {
   flex: none;
   order: 2;
   flex-grow: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -588,7 +591,7 @@ body {
   width: 70%;
   height: 24px;
   padding-top: 150px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -606,7 +609,7 @@ body {
 
 .language {
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -639,7 +642,7 @@ body {
 }
 
 .main-heading {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -660,7 +663,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 375px;
-  border-bottom: 2px solid  #dfe1e6;
+  border-bottom: 2px solid #dfe1e6;
   padding-bottom: 100px;
 }
 
@@ -670,7 +673,7 @@ body {
   border: 0;
   border-bottom: 2px solid #dbd8d7;
   margin-bottom: 25px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -684,7 +687,7 @@ body {
   box-sizing: border-box;
   padding: 12px;
   background: #fbf8f7;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -696,7 +699,7 @@ body {
 }
 
 .submit-button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -793,7 +796,7 @@ body {
   .drop-content li a {
     width: 63px;
     height: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
@@ -809,7 +812,7 @@ body {
   }
 
   .tool-bar {
-    grid-area: 1/1/2/span 10;
+    grid-area: 1/1/2 / span 10;
     position: unset;
     display: flex;
     align-items: flex-end;
@@ -836,7 +839,7 @@ body {
   }
 
   .social-media {
-    grid-area: 3/1/span 4/span 1;
+    grid-area: 3/1 / span 4 / span 1;
     margin-top: 0;
     display: flex;
     flex-direction: column;
@@ -869,8 +872,8 @@ body {
   .primary-text {
     margin: 0%;
     width: 100%;
-    grid-area: 4/2/span 2/span 3;
-    font-family: 'Crete Round', sans-serif;
+    grid-area: 4/2 / span 2 / span 3;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3.5rem;
@@ -894,11 +897,11 @@ body {
 
   .supporting-text {
     margin: 0%;
-    grid-area: 6/2/span 1/span 3;
+    grid-area: 6/2 / span 1 / span 3;
     font-size: 1.5rem;
     width: 327px;
     height: 27px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
@@ -913,7 +916,7 @@ body {
   .discription {
     margin: 0;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -922,7 +925,7 @@ body {
     flex: none;
     flex-grow: 0;
     z-index: 1;
-    grid-area: 7/2/span 2/span 4;
+    grid-area: 7/2 / span 2 / span 4;
   }
 
   .br {
@@ -942,7 +945,7 @@ body {
 
   .my-recent-works {
     all: unset;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24.7px;
@@ -974,7 +977,7 @@ body {
     grid-area: 4/2/5/3;
     position: relative;
     left: 61%;
-    width: 38.75%;  /* 448px/1440px */
+    width: 38.75%; /* 448px/1440px */
     height: 100%; /* 448px/1805px */
   }
 
@@ -1057,7 +1060,7 @@ body {
   .hide-for-mobile {
     margin: 0%;
     display: unset;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 3vw;
@@ -1162,7 +1165,7 @@ body {
     color: #091e42;
     padding: 0.2em;
     font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500 bold;
     line-height: 20px;
@@ -1179,7 +1182,7 @@ body {
     box-sizing: border-box;
     color: #fff;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500 bold;
     font-size: 15px;
@@ -1227,7 +1230,7 @@ body {
   .text1,
   .pad {
     all: unset;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 7vw;
@@ -1238,7 +1241,7 @@ body {
   .paragragh1 {
     all: unset;
     text-align: left;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5vw;
@@ -1260,7 +1263,7 @@ body {
     background: #ff6b00;
     flex: none;
     order: 2;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.2vw;
@@ -1317,7 +1320,7 @@ body {
     all: unset;
     flex-direction: column;
     list-style: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.53vw;
@@ -1328,7 +1331,7 @@ body {
   }
 
   .class276 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 2.5vw;
@@ -1365,7 +1368,7 @@ body {
   .main-heading {
     box-sizing: border-box;
     padding: 0% 10%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     flex-basis: 40%;
     font-weight: 700;
@@ -1384,7 +1387,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     background: #fbf8f7;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
