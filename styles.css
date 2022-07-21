@@ -204,7 +204,7 @@ body {
 }
 
 .my-recent-works {
-  grid-column: 2/span 1;
+  
   grid-row: 1/span 1;
   width: 327px;
   height: 83px;
@@ -217,6 +217,9 @@ body {
   align-items: center;
   color: #1c1a19;
   border-bottom: 1px solid #212121;
+}
+.couple{
+  grid-column: 2/span 1;
 }
 
 .hr2 {
