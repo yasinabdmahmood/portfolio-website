@@ -1,6 +1,8 @@
 
 body {
   margin: 0%;
+  display: flex;
+  flex-direction: column;
 }
 
 .tool-bar {
@@ -196,12 +198,9 @@ body {
   grid-template-rows: 83px 104px 237px 24px 285px 36px 2400px;
   align-items: center;
   padding: 120px 0;
-  position: absolute;
   width: 100%;
   height: 3455px;
-  left: 0;
-  top: 682px;
-}
+ }
 
 .my-recent-works {
   
@@ -498,11 +497,8 @@ body {
 }
 
 .last-section {
-  position: absolute;
   width: 100vw;
   height: 1901px;
-  left: 0;
-  top: 4137px;
   background: #1c1a19;
   background-image: url(img2/Frame.svg);
   background-repeat: no-repeat;
@@ -627,14 +623,12 @@ body {
 }
 
 .form-section {
-  top: 6038px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
   background: white;
   width: 100vw;
-  position: relative;
 }
 
 .main-heading {
