@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
 .list-item-js a {
@@ -32,12 +32,15 @@
   text-align: left;
   margin-left: 5%;
   margin-right: 8%;
-  padding: 5%;
-  font-weight: 700;
+  padding: 1%;
   text-decoration: none;
   color: white;
-  font-size: 3rem;
   border-bottom: 2px solid white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .close-tap {

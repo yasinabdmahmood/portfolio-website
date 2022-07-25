@@ -10,7 +10,7 @@ function createList() {
   const li = document.createElement('li');
   li.className = 'list-item-js  close-tap';
   const img = document.createElement('img');
-  img.setAttribute('src', '/img/x-lg.svg');
+  img.setAttribute('src', './img/x-lg.svg');
   img.className = 'close-tap-img';
   li.appendChild(img);
   ul.appendChild(li);
