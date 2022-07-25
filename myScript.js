@@ -5,6 +5,7 @@ function createList() {
   const ul = document.createElement('ul');
   ul.id = 'ul-js';
   const arr = ['Portfolio', 'About me', 'Contact'];
+  const arr2 = ['Portfolio', 'About-me', 'Contact'];
 
   const li = document.createElement('li');
   li.className = 'list-item-js  close-tap';
@@ -17,7 +18,7 @@ function createList() {
     const li = document.createElement('li');
     li.className = 'list-item-js';
     const a = document.createElement('a');
-    a.setAttribute('href', `#${arr[i]}`);
+    a.setAttribute('href', `#${arr2[i]}`);
     const text = document.createTextNode(arr[i]);
     a.appendChild(text);
     li.appendChild(a);

@@ -200,10 +200,9 @@ body {
   padding: 120px 0;
   width: 100%;
   height: 3455px;
- }
+}
 
 .my-recent-works {
-  
   grid-row: 1/span 1;
   width: 327px;
   height: 83px;
@@ -217,7 +216,8 @@ body {
   color: #1c1a19;
   border-bottom: 1px solid #212121;
 }
-.couple{
+
+.couple {
   grid-column: 2/span 1;
 }
 
