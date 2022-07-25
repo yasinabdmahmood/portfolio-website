@@ -1,0 +1,55 @@
+#div-js {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+}
+
+#ul-js {
+  display: flex;
+  background: #3c3a39;
+  flex-basis: 100%;
+  margin: 0%;
+  padding: 0%;
+  justify-content: flex-start;
+  list-style: none;
+  flex-direction: column;
+}
+
+.list-item-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0;
+}
+
+.list-item-js a {
+  width: 100%;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 8%;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.close-tap {
+  align-items: flex-start;
+}
+
+.close-tap-img {
+  transform: scale(4);
+  margin-left: 80%;
+  margin-top: 10vh;
+  color: white;
+}

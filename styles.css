@@ -1,5 +1,7 @@
 body {
   margin: 0%;
+  display: flex;
+  flex-direction: column;
 }
 
 .hidden-label {
@@ -203,16 +205,12 @@ body {
   grid-template-rows: 83px 104px 237px 24px 285px 36px 2400px;
   align-items: center;
   padding: 120px 0;
-  position: absolute;
   width: 100%;
   height: 3455px;
-  left: 0;
-  top: 682px;
 }
 
 .my-recent-works {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
+  grid-row: 1/span 1;
   width: 327px;
   height: 83px;
   font-family: "Crete Round", sans-serif;
@@ -224,6 +222,10 @@ body {
   align-items: center;
   color: #1c1a19;
   border-bottom: 1px solid #212121;
+}
+
+.couple {
+  grid-column: 2/span 1;
 }
 
 .hr2 {
@@ -502,11 +504,8 @@ body {
 }
 
 .last-section {
-  position: absolute;
   width: 100vw;
   height: 1901px;
-  left: 0;
-  top: 4137px;
   background: #1c1a19;
   background-image: url(img2/Frame.svg);
   background-repeat: no-repeat;
@@ -631,14 +630,12 @@ body {
 }
 
 .form-section {
-  top: 6038px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
   background: white;
   width: 100vw;
-  position: relative;
 }
 
 .main-heading {

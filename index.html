@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <img src="img/seven-o-clock.svg" alt="Animated clock logo" class="logo" />
-    <section class="head-line">
-      <header class="tool-bar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles.css"> 
+     
+</head>
+<body>
+  
+  <section class="head-line">
+    <header class="tool-bar" id="navbar-js">
         <div class="toolbar-dark-compact">
-          <a class="john-doe" href="https://www.w3schools.com">Yasen</a>
-          <nav class="normal-button">
-            <img class="humberger-img" src="img/Union.png" alt="Mobile menu" />
-            <ul class="drop-content">
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Contact</a></li>
-              <li>
-                <a href=""><img src="img/envelop.svg" alt="Email" /></a>
-              </li>
-            </ul>
-          </nav>
+            <a class="john-doe" href="https://www.w3schools.com">Yasen</a>
+            <nav class="normal-button" >  
+                <img  id="humberger-icon" class="humberger-img" src="img/Union.png" alt="">
+                <ul class="drop-content">
+                    <li><a href="">Portfolio</a> </li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href=""><img src="img/envelop.svg" alt=""></a></li>
+                   </ul>
+            </nav>
+
         </div>
       </header>
 
@@ -64,15 +65,13 @@
             <img class="social-media-icons" src="img/bird.png" alt="Twitter" />
           </a>
         </li>
-        <li class="social-media-buttons">
-          <a href="">
-            <img class="social-media-icons" src="img/m.png" alt="Medium" />
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <section class="recent-work">
+
+    </ul>
+    
+  </section> 
+  <section>
+    <section class="recent-work" id="Portfolio">
+
         <div class="couple">
           <h1 class="my-recent-works">My Recent Works</h1>
           <hr class="hr2" />
@@ -238,8 +237,9 @@
         </section>
       </section>
     </section>
-    <section class="last-section">
-      <section class="about-me">
+  <section class="last-section">
+    <section class="about-me" id="About-me">
+
         <h1 class="text1 pad">About me</h1>
         <p class="paragragh1">
           Hello I’m a software developer! I can <br />
@@ -294,21 +294,19 @@
         </ul>
       </section>
     </section>
-    <section class="form-section">
-      <h2 class="main-heading">
-        I'm always
-        <br class="hide-for-desctop" />
-        interested in hearing <br class="hide-for-desctop" />
-        about new projects, <br class="hide-for-desctop" />
-        so if you'd like to <br class="hide-for-desctop" />
-        chat please get in <br class="hide-for-desctop" />
-        touch.
-      </h2>
-      <form
-        class="form1"
-        action="https://formspree.io/f/xvoljkdk"
-        method="post"
-      >
+
+ 
+<section class="form-section" id="Contact">
+    <h2 class="main-heading">
+        I'm always 
+        <br class="hide-for-desctop" > interested in hearing 
+        <br class="hide-for-desctop"> about new projects,
+        <br class="hide-for-desctop"> so if you'd like to
+        <br class="hide-for-desctop"> chat please get in 
+        <br class="hide-for-desctop"> touch.
+    </h2>
+    <form class="form1" action="https://formspree.io/f/xvoljkdk" method="post">
+
         <ul class="form">
           <li>
             <label class="hidden-label" for="full-name">Full Name</label>
@@ -431,8 +429,11 @@
             <a href=""><img src="img/m1.svg" alt="Medium" /> </a>
           </li>
         </ul>
-      </footer>
-      <hr class="hr" />
-    </section>
+
+    </footer>
+    <hr class="hr">
+</section> 
+<script src="myScript.js"></script>
+
   </body>
 </html>
