@@ -4,7 +4,7 @@ function createList(){
     el.id='div-js'
 let ul=document.createElement('ul');
 ul.id='ul-js'
-let arr=['portfolio','about me','contact']
+let arr=['Portfolio','About me','Contact']
 let link=['section1','section2','section3'] /*this needs to be modified
 it should contain the Id of sections*/
 

@@ -4,9 +4,8 @@
     padding: 0px;
     margin: 0px;
     width: 100vw;
-    height: 682px;
-    position: absolute;
-    top: 0%;
+    height: 100vh;
+    position: fixed;
     z-index: 1;
 }
 
@@ -32,18 +31,27 @@
 }
 .list-item-js a{
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 8%;
+    padding: 5%;
+    font-size: 2rem;
+    font-weight: 700;
     text-decoration: none;
     color: white;
     font-size: 3rem;
+    border-bottom: 2px solid white;
 }
 
 .close-tap{
     align-items: flex-start;
+
 }
 
 .close-tap-img{
-    transform: scale(2);
+    transform: scale(4);
     margin-left: 80%;
     margin-top: 10vh;
+    color: white;
 }
+
