@@ -42,7 +42,71 @@ function createList() {
 document.getElementById('humberger-icon').onclick = createList; 
 
 ////////////////////////////////////////////////////////////////////////
+
+let projects=[
+  {
+    title:"Multi Post Stories",
+    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: "/img/card1-project-img.png",
+    technologies: ['html','bootstrap','ruby on rail'],
+    linkToLive:"https://github.com/",
+    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+
+  }
+  ,
+  {
+    title:"Multi Post Stories",
+    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: "/img/card1-project-img.png",
+    technologies: ['html','bootstrap','ruby on rail'],
+    linkToLive:"https://github.com/",
+    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+
+  }
+  ,
+  {
+    title:"Multi Post Stories",
+    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: "/img/card1-project-img.png",
+    technologies: ['html','bootstrap','ruby on rail'],
+    linkToLive:"https://github.com/",
+    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+
+  }
+  ,
+  {
+    title:"Multi Post Stories",
+    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: "/img/card1-project-img.png",
+    technologies: ['html','bootstrap','ruby on rail'],
+    linkToLive:"https://github.com/",
+    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+
+  }
+  ,
+  {
+    title:"Multi Post Stories",
+    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: "/img/card1-project-img.png",
+    technologies: ['html','bootstrap','ruby on rail'],
+    linkToLive:"https://github.com/",
+    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+
+  }
+  ,
+  {
+    title:"Multi Post Stories",
+    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: "/img/card1-project-img.png",
+    technologies: ['html','bootstrap','ruby on rail'],
+    linkToLive:"https://github.com/",
+    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+
+  }
+]
+
 function createProjectPopUp(){
+   let x=parseInt(this.id[4])-1
   let blutty_background=document.createElement('div');
   blutty_background.setAttribute('class','blurry-background');
 
@@ -54,7 +118,7 @@ function createProjectPopUp(){
   main_window.appendChild(div1);
   let title=document.createElement('h1');
   title.setAttribute('class','mb-4 mb-md-1  h2  fw-bold ')
-  let titleText=document.createTextNode('Multi Post Stories');
+  let titleText=document.createTextNode(projects[x].title);
   title.appendChild(titleText);
   div1.appendChild(title);
   let close_tap_img=document.createElement('img');
@@ -66,7 +130,7 @@ function createProjectPopUp(){
   let div2=document.createElement('div');
   div2.setAttribute('class','d-flex mb-md-5 flex-shrink-1');
   main_window.appendChild(div2);
-  let tech=['html','bootstrap','ruby on rail'];
+  let tech=projects[x].technologies;
   for(let i=0;i<3;i+=1){
       let a=document.createElement('a');
       a.setAttribute('class','btn  m-2 border-dark rounded-0 lead h1');
@@ -80,7 +144,7 @@ function createProjectPopUp(){
 
   let project_img=document.createElement('img')
   project_img.setAttribute('css','img-p2-js flex-grow-1 ');
-  project_img.setAttribute('src','/img/card1-project-img.png');
+  project_img.setAttribute('src',projects[x].featureImg);
   div3.appendChild(project_img);
 
   let div3_1=document.createElement('div');
@@ -89,7 +153,7 @@ function createProjectPopUp(){
 
   let discription=document.createElement('p');
   discription.setAttribute('class','mx-3 mt-3 mt-md-1');
-  let discription_text=document.createTextNode('Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum qui illo eveniet eligendi nisi cupiditate accusantium in, perspiciatis autem odit beatae cumque temporibus iure et praesentium excepturi unde voluptatibus distinctio. Vel, odio! Assumenda sed atque sapiente quaerat, fugiat quibusdam accusantium ducimus modi nulla odio ipsam veniam quas perferendis commodi iusto!');
+  let discription_text=document.createTextNode(projects[x].discription);
   discription.appendChild(discription_text);
   div3_1.appendChild(discription);
 
@@ -98,6 +162,7 @@ function createProjectPopUp(){
   div3_1.appendChild(div3_1_1);
 
   let a_last_button1=document.createElement('a');
+  a_last_button1.setAttribute('href',projects[x].linkToLive);
   a_last_button1.setAttribute('class','btn col-5  col-md-3  me-4 me-md-1  py-md-2 text-white fw-md-bold  rounded-0 col-4 bg-orange');
   let a_last_button_text=document.createTextNode('See live ');
   a_last_button1.appendChild(a_last_button_text);
@@ -107,6 +172,7 @@ function createProjectPopUp(){
   div3_1_1.appendChild(a_last_button1)
 
   let a_last_button2=document.createElement('a');
+  a_last_button2.setAttribute('href',projects[x].linkToSource);
   a_last_button2.setAttribute('class','btn col-5 col-md-3 ms-4 ms-md-1  py-md-2 text-white fw-md-bold rounded-0 col-4 bg-orange');
   let a_last_button_text2=document.createTextNode('See source ');
   a_last_button2.appendChild(a_last_button_text2);
@@ -127,3 +193,8 @@ function createProjectPopUp(){
 }
 
 document.getElementById('card1').onclick=createProjectPopUp; 
+document.getElementById('card2').onclick=createProjectPopUp; 
+document.getElementById('card3').onclick=createProjectPopUp; 
+document.getElementById('card4').onclick=createProjectPopUp; 
+document.getElementById('card5').onclick=createProjectPopUp; 
+document.getElementById('card6').onclick=createProjectPopUp; 
