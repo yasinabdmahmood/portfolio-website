@@ -39,162 +39,149 @@ function createList() {
   };
 }
 
-document.getElementById('humberger-icon').onclick = createList; 
+document.getElementById('humberger-icon').onclick = createList;
 
-////////////////////////////////////////////////////////////////////////
+/// /////////////////////////////////////////////////////////////////////
 
-let projects=[
+const projects = [
   {
-    title:"Multi Post Stories",
-    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featureImg: "/img/card1-project-img.png",
-    technologies: ['html','bootstrap','ruby on rail'],
-    linkToLive:"https://github.com/",
-    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '/img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  }
-  ,
+  },
   {
-    title:"Multi Post Stories",
-    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featureImg: "/img/card1-project-img.png",
-    technologies: ['html','bootstrap','ruby on rail'],
-    linkToLive:"https://github.com/",
-    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '/img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  }
-  ,
+  },
   {
-    title:"Multi Post Stories",
-    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featureImg: "/img/card1-project-img.png",
-    technologies: ['html','bootstrap','ruby on rail'],
-    linkToLive:"https://github.com/",
-    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '/img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  }
-  ,
+  },
   {
-    title:"Multi Post Stories",
-    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featureImg: "/img/card1-project-img.png",
-    technologies: ['html','bootstrap','ruby on rail'],
-    linkToLive:"https://github.com/",
-    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '/img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  }
-  ,
+  },
   {
-    title:"Multi Post Stories",
-    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featureImg: "/img/card1-project-img.png",
-    technologies: ['html','bootstrap','ruby on rail'],
-    linkToLive:"https://github.com/",
-    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '/img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  }
-  ,
+  },
   {
-    title:"Multi Post Stories",
-    discription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featureImg: "/img/card1-project-img.png",
-    technologies: ['html','bootstrap','ruby on rail'],
-    linkToLive:"https://github.com/",
-    linkToSource:"https://github.com/yasinabdmahmood/portfolio-website"
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '/img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  }
-]
+  },
+];
 
-function createProjectPopUp(){
-   let x=parseInt(this.id[4])-1
-  let blutty_background=document.createElement('div');
-  blutty_background.setAttribute('class','blurry-background');
+function createProjectPopUp() {
+  const x = parseInt(this.id[4], 10) - 1;
+  const blurryBackground = document.createElement('div');
+  blurryBackground.setAttribute('class', 'blurry-background');
 
-  let main_window=document.createElement('div');
-  main_window.setAttribute('class','main-window p-3');
-  blutty_background.appendChild(main_window)
-  let div1=document.createElement('div');
-  div1.setAttribute('class','d-flex flex-shrink-1  p-1 p-md-1 m-1 m-md-1 justify-content-between  align-items-center ');
-  main_window.appendChild(div1);
-  let title=document.createElement('h1');
-  title.setAttribute('class','mb-4 mb-md-1  h2  fw-bold ')
-  let titleText=document.createTextNode(projects[x].title);
+  const mainwindow = document.createElement('div');
+  mainwindow.setAttribute('class', 'main-window p-3');
+  blurryBackground.appendChild(mainwindow);
+  const div1 = document.createElement('div');
+  div1.setAttribute('class', 'd-flex flex-shrink-1  p-1 p-md-1 m-1 m-md-1 justify-content-between  align-items-center ');
+  mainwindow.appendChild(div1);
+  const title = document.createElement('h1');
+  title.setAttribute('class', 'mb-4 mb-md-1  h2  fw-bold ');
+  const titleText = document.createTextNode(projects[x].title);
   title.appendChild(titleText);
   div1.appendChild(title);
-  let close_tap_img=document.createElement('img');
-  close_tap_img.setAttribute('css','img-fluid  h-50 align-self-start ');
-  close_tap_img.setAttribute('src','img/x-lg.svg');
-  close_tap_img.setAttribute('id','btn-d2'); //modify
-  div1.appendChild(close_tap_img);
-  close_tap_img.onclick=()=>blutty_background.remove();
-  let div2=document.createElement('div');
-  div2.setAttribute('class','d-flex mb-md-5 flex-shrink-1');
-  main_window.appendChild(div2);
-  let tech=projects[x].technologies;
-  for(let i=0;i<3;i+=1){
-      let a=document.createElement('a');
-      a.setAttribute('class','btn  m-2 border-dark rounded-0 lead h1');
-      let button_text=document.createTextNode(tech[i]);
-      a.appendChild(button_text)
-      div2.appendChild(a);
+  const closetapimg = document.createElement('img');
+  closetapimg.setAttribute('css', 'img-fluid  h-50 align-self-start ');
+  closetapimg.setAttribute('src', 'img/x-lg.svg');
+  closetapimg.setAttribute('id', 'btn-d2'); // modify
+  div1.appendChild(closetapimg);
+  closetapimg.onclick = () => blurryBackground.remove();
+  const div2 = document.createElement('div');
+  div2.setAttribute('class', 'd-flex mb-md-5 flex-shrink-1');
+  mainwindow.appendChild(div2);
+  const tech = projects[x].technologies;
+  for (let i = 0; i < 3; i += 1) {
+    const a = document.createElement('a');
+    a.setAttribute('class', 'btn  m-2 border-dark rounded-0 lead h1');
+    const buttontext = document.createTextNode(tech[i]);
+    a.appendChild(buttontext);
+    div2.appendChild(a);
   }
-  let div3=document.createElement('div');
-  div3.setAttribute('class','img-p flex-shrink-1 mt-3 mt-md-1 ');
-  main_window.appendChild(div3);
+  const div3 = document.createElement('div');
+  div3.setAttribute('class', 'img-p flex-shrink-1 mt-3 mt-md-1 ');
+  mainwindow.appendChild(div3);
 
-  let project_img=document.createElement('img')
-  project_img.setAttribute('css','img-p2-js flex-grow-1 ');
-  project_img.setAttribute('src',projects[x].featureImg);
-  div3.appendChild(project_img);
+  const projectimg = document.createElement('img');
+  projectimg.setAttribute('css', 'img-p2-js flex-grow-1 ');
+  projectimg.setAttribute('src', projects[x].featureImg);
+  div3.appendChild(projectimg);
 
-  let div3_1=document.createElement('div');
-  div3_1.setAttribute('class','d-flex flex-grow-1 justify-content-between  flex-column ps-md-2   p-b-p2-js ');
-  div3.appendChild(div3_1);
+  const div31 = document.createElement('div');
+  div31.setAttribute('class', 'd-flex flex-grow-1 justify-content-between  flex-column ps-md-2   p-b-p2-js ');
+  div3.appendChild(div31);
 
-  let discription=document.createElement('p');
-  discription.setAttribute('class','mx-3 mt-3 mt-md-1');
-  let discription_text=document.createTextNode(projects[x].discription);
-  discription.appendChild(discription_text);
-  div3_1.appendChild(discription);
+  const discription = document.createElement('p');
+  discription.setAttribute('class', 'mx-3 mt-3 mt-md-1');
+  const discriptiontext = document.createTextNode(projects[x].discription);
+  discription.appendChild(discriptiontext);
+  div31.appendChild(discription);
 
-  let div3_1_1=document.createElement('div');
-  div3_1_1.setAttribute('class','row mx-1   justify-content-start');
-  div3_1.appendChild(div3_1_1);
+  const div311 = document.createElement('div');
+  div311.setAttribute('class', 'row mx-1   justify-content-start');
+  div31.appendChild(div311);
 
-  let a_last_button1=document.createElement('a');
-  a_last_button1.setAttribute('href',projects[x].linkToLive);
-  a_last_button1.setAttribute('class','btn col-5  col-md-3  me-4 me-md-1  py-md-2 text-white fw-md-bold  rounded-0 col-4 bg-orange');
-  let a_last_button_text=document.createTextNode('See live ');
-  a_last_button1.appendChild(a_last_button_text);
-  let a_last_button1_img=document.createElement('img');
-  a_last_button1_img.setAttribute('src','img/img-p2-js.svg');
-  a_last_button1.appendChild(a_last_button1_img);
-  div3_1_1.appendChild(a_last_button1)
+  const alastbutton1 = document.createElement('a');
+  alastbutton1.setAttribute('href', projects[x].linkToLive);
+  alastbutton1.setAttribute('class', 'btn col-5  col-md-3  me-4 me-md-1  py-md-2 text-white fw-md-bold  rounded-0 col-4 bg-orange');
+  const alastbuttontext = document.createTextNode('See live ');
+  alastbutton1.appendChild(alastbuttontext);
+  const alastbutton1img = document.createElement('img');
+  alastbutton1img.setAttribute('src', 'img/img-p2-js.svg');
+  alastbutton1.appendChild(alastbutton1img);
+  div311.appendChild(alastbutton1);
 
-  let a_last_button2=document.createElement('a');
-  a_last_button2.setAttribute('href',projects[x].linkToSource);
-  a_last_button2.setAttribute('class','btn col-5 col-md-3 ms-4 ms-md-1  py-md-2 text-white fw-md-bold rounded-0 col-4 bg-orange');
-  let a_last_button_text2=document.createTextNode('See source ');
-  a_last_button2.appendChild(a_last_button_text2);
-  let a_last_button2_img=document.createElement('img');
-  a_last_button2_img.setAttribute('src','img/img-p2-js-2.svg');
-  a_last_button2.appendChild(a_last_button2_img);
-  div3_1_1.appendChild(a_last_button2)
+  const alastbutton2 = document.createElement('a');
+  alastbutton2.setAttribute('href', projects[x].linkToSource);
+  alastbutton2.setAttribute('class', 'btn col-5 col-md-3 ms-4 ms-md-1  py-md-2 text-white fw-md-bold rounded-0 col-4 bg-orange');
+  const alastbuttontext2 = document.createTextNode('See source ');
+  alastbutton2.appendChild(alastbuttontext2);
+  const alastbutton2img = document.createElement('img');
+  alastbutton2img.setAttribute('src', 'img/img-p2-js-2.svg');
+  alastbutton2.appendChild(alastbutton2img);
+  div311.appendChild(alastbutton2);
 
-
-
-
-
-
-
-
-
-  document.body.insertBefore(blutty_background,document.body.firstChild)
+  document.body.insertBefore(blurryBackground, document.body.firstChild);
 }
 
-document.getElementById('card1').onclick=createProjectPopUp; 
-document.getElementById('card2').onclick=createProjectPopUp; 
-document.getElementById('card3').onclick=createProjectPopUp; 
-document.getElementById('card4').onclick=createProjectPopUp; 
-document.getElementById('card5').onclick=createProjectPopUp; 
-document.getElementById('card6').onclick=createProjectPopUp; 
+document.getElementById('card1').onclick = createProjectPopUp;
+document.getElementById('card2').onclick = createProjectPopUp;
+document.getElementById('card3').onclick = createProjectPopUp;
+document.getElementById('card4').onclick = createProjectPopUp;
+document.getElementById('card5').onclick = createProjectPopUp;
+document.getElementById('card6').onclick = createProjectPopUp;
