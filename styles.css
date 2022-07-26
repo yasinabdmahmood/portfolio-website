@@ -1489,7 +1489,7 @@ body {
 .img-p2-js{
   flex-basis: 60%;
 }
-
+/* project2 week4 start below */
 @media only screen and (min-width: 768px) {
   .main-window{
       
@@ -1519,4 +1519,5 @@ body {
       flex-basis: 40%;
       flex-grow: 1;
   }
-} /* the bootstrap prototype ends here */ 
+} 
+/* project2 week4 ends above */
