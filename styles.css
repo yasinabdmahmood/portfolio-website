@@ -1445,3 +1445,78 @@ body {
     width: 70%;
   }
 }
+
+
+.blurry-background{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+}
+.main-window{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  
+
+
+  
+  width: 95%;
+  height: 95vh;
+  background: white;
+  position: relative;
+  
+  z-index: 2;
+  border: 1px solid gold; /*to be removed later */ 
+}
+
+.bg-orange{
+  background-color: #FF6B00 !important;
+}
+
+.img-p{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-self: stretch;
+
+}
+.img-p2-js{
+  flex-basis: 60%;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-window{
+      
+  
+      
+      width: 85%;
+      height: 80vh;
+     
+  }
+  .img-p{
+     
+      flex-direction: row;
+      align-items:stretch;
+
+      
+  }  
+  .img-p2-js{
+      flex-basis: 50%;
+      flex-grow: 1;
+      height:50vh;
+      /* width: 40vw;
+      height: 45vh; */
+
+      
+  }
+  .p-b-p2-js{
+      flex-basis: 40%;
+      flex-grow: 1;
+  }
+} /* the bootstrap prototype ends here */ 
