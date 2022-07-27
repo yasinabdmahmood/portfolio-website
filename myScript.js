@@ -114,59 +114,66 @@ function createProjectPopUp() {
   blurryBackground.setAttribute('class', 'blurry-background');
 
   const mainwindow = document.createElement('div');
-  mainwindow.setAttribute('class', 'main-window p-3');
+  mainwindow.setAttribute('class', 'main-window ');
   blurryBackground.appendChild(mainwindow);
   const div1 = document.createElement('div');
-  div1.setAttribute('class', 'd-flex flex-shrink-1  p-1 p-md-1 m-1 m-md-1 justify-content-between  align-items-center ');
+  //div1-p2w4
+  div1.setAttribute('class', 'div1-p2w4');
   mainwindow.appendChild(div1);
   const title = document.createElement('h1');
-  title.setAttribute('class', 'mb-4 mb-md-1  h2  fw-bold ');
+  //title-p2w4
+  title.setAttribute('class', 'title-p2w4');
   const titleText = document.createTextNode(projects[x].title);
   title.appendChild(titleText);
   div1.appendChild(title);
   const closetapimg = document.createElement('img');
-  closetapimg.setAttribute('css', 'img-fluid  h-50 align-self-start ');
+  //close-p2w4
+  closetapimg.setAttribute('class', 'close-p2w4');
   closetapimg.setAttribute('src', 'img/x-lg.svg');
   closetapimg.setAttribute('id', 'btn-d2'); // modify
   div1.appendChild(closetapimg);
   closetapimg.onclick = () => blurryBackground.remove();
   const div2 = document.createElement('div');
-  div2.setAttribute('class', 'd-flex mb-md-5 flex-shrink-1');
+  div2.setAttribute('class', 'div2-p2w4');
   mainwindow.appendChild(div2);
   const tech = projects[x].technologies;
   for (let i = 0; i < 3; i += 1) {
     const a = document.createElement('a');
-    a.setAttribute('class', 'btn  m-2 border-dark rounded-0 lead h1');
+    //tech-p2w4
+    a.setAttribute('class', 'tech-p2w4');
     const buttontext = document.createTextNode(tech[i]);
     a.appendChild(buttontext);
     div2.appendChild(a);
   }
   const div3 = document.createElement('div');
-  div3.setAttribute('class', 'img-p flex-shrink-1 mt-3 mt-md-1 ');
+  div3.setAttribute('class', 'div3-p2w4');
   mainwindow.appendChild(div3);
 
   const projectimg = document.createElement('img');
-  projectimg.setAttribute('css', 'img-p2-js flex-grow-1 ');
+  projectimg.setAttribute('class', 'feature-img ');
   projectimg.setAttribute('src', projects[x].featureImg);
   div3.appendChild(projectimg);
 
   const div31 = document.createElement('div');
-  div31.setAttribute('class', 'd-flex flex-grow-1 justify-content-between  flex-column ps-md-2   p-b-p2-js ');
+  div31.setAttribute('class', 'div31-p2w4 ');
   div3.appendChild(div31);
 
   const discription = document.createElement('p');
-  discription.setAttribute('class', 'mx-3 mt-3 mt-md-1');
+  //discription-p2w4
+  discription.setAttribute('class', 'discription-p2w4');
   const discriptiontext = document.createTextNode(projects[x].discription);
   discription.appendChild(discriptiontext);
   div31.appendChild(discription);
 
   const div311 = document.createElement('div');
-  div311.setAttribute('class', 'row mx-1   justify-content-start');
+  ////div311-p2w4
+  div311.setAttribute('class', 'div311-p2w4');
   div31.appendChild(div311);
 
   const alastbutton1 = document.createElement('a');
   alastbutton1.setAttribute('href', projects[x].linkToLive);
-  alastbutton1.setAttribute('class', 'btn col-5  col-md-3  me-4 me-md-1  py-md-2 text-white fw-md-bold  rounded-0 col-4 bg-orange');
+  //bg-orange
+  alastbutton1.setAttribute('class', ' bg-orange');
   const alastbuttontext = document.createTextNode('See live ');
   alastbutton1.appendChild(alastbuttontext);
   const alastbutton1img = document.createElement('img');
@@ -176,7 +183,7 @@ function createProjectPopUp() {
 
   const alastbutton2 = document.createElement('a');
   alastbutton2.setAttribute('href', projects[x].linkToSource);
-  alastbutton2.setAttribute('class', 'btn col-5 col-md-3 ms-4 ms-md-1  py-md-2 text-white fw-md-bold rounded-0 col-4 bg-orange');
+  alastbutton2.setAttribute('class', ' bg-orange');
   const alastbuttontext2 = document.createTextNode('See source ');
   alastbutton2.appendChild(alastbuttontext2);
   const alastbutton2img = document.createElement('img');
