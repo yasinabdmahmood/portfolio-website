@@ -1466,7 +1466,7 @@ body {
   height: 95vh;
   background: white;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   border: 1px solid gold; /* to be removed later */
 }
 

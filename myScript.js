@@ -92,12 +92,20 @@ const projects = [
   {
     title: 'Multi Post Stories',
     discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    featureImg: '.img/card1-project-img.png',
+    technologies: ['html', 'bootstrap', 'ruby on rail'],
+    linkToLive: 'https://github.com/',
+    linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
+
+  },{
+    title: 'Multi Post Stories',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     featureImg: './img/card1-project-img.png',
     technologies: ['html', 'bootstrap', 'ruby on rail'],
     linkToLive: 'https://github.com/',
     linkToSource: 'https://github.com/yasinabdmahmood/portfolio-website',
 
-  },
+  }
 ];
 
 function createProjectPopUp() {
@@ -185,3 +193,4 @@ document.getElementById('card3').onclick = createProjectPopUp;
 document.getElementById('card4').onclick = createProjectPopUp;
 document.getElementById('card5').onclick = createProjectPopUp;
 document.getElementById('card6').onclick = createProjectPopUp;
+document.getElementById('card7').onclick = createProjectPopUp;
