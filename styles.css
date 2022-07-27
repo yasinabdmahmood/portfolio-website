@@ -1445,3 +1445,254 @@ body {
     width: 70%;
   }
 }
+
+/* project2 week4 start below */
+.blurry-background {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
+
+.main-window {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 1rem;
+  width: 95vw;
+  height: 95vh;
+  background: white;
+  position: relative;
+  z-index: 5;
+}
+
+.div1-p2w4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-p2w4 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.close-p2w4 {
+  transform: scale(2);
+  align-self: flex-start;
+  padding-top: 1rem;
+}
+
+.div2-p2w4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.tech-p2w4 {
+  text-decoration: none;
+  border: 1px solid black;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #3c3a39;
+  padding: 0.75rem;
+}
+
+.div3-p2w4 {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.feature-img {
+  width: 100%;
+  padding: 1rem 0;
+  height: 200px;
+  overflow-y: scroll;
+  flex-shrink: 1;
+}
+
+.div31-p2w4 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  flex-shrink: 1;
+}
+
+.discription-p2w4 {
+  flex-shrink: 1;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  overflow: hidden;
+  max-height: 200px;
+  color: #344563;
+}
+
+.div311-p2w4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.bg-orange {
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #fff;
+  background-color: #ff6b00 !important;
+  padding: 0.75rem;
+}
+
+.bg-orange img {
+  padding: 0 1em;
+}
+
+.img-p {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-window {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 2rem;
+    width: 95vw;
+    height: 95vh;
+    background: white;
+    position: relative;
+    z-index: 5;
+  }
+
+  .div1-p2w4 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-p2w4 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  .close-p2w4 {
+    transform: scale(3);
+    align-self: flex-start;
+    padding-top: 1rem;
+  }
+
+  .div2-p2w4 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .tech-p2w4 {
+    text-decoration: none;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3c3a39;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .div3-p2w4 {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+
+  .feature-img {
+    all: unset;
+    min-width: 50%;
+  }
+
+  .div31-p2w4 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-shrink: 1;
+    margin-left: 2rem;
+  }
+
+  .discription-p2w4 {
+    flex-shrink: 1;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    overflow: hidden;
+    max-height: unset;
+    color: #344563;
+  }
+
+  .div311-p2w4 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: unset;
+  }
+
+  .bg-orange {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #fff;
+    background-color: #ff6b00 !important;
+    padding: 0.75rem;
+  }
+
+  .bg-orange img {
+    padding: 0 0.5em;
+  }
+
+  .img-p {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-self: stretch;
+  }
+}
+
+/* project2 week4 ends above */
