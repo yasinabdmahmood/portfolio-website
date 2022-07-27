@@ -117,17 +117,17 @@ function createProjectPopUp() {
   mainwindow.setAttribute('class', 'main-window ');
   blurryBackground.appendChild(mainwindow);
   const div1 = document.createElement('div');
-  //div1-p2w4
+  // div1-p2w4
   div1.setAttribute('class', 'div1-p2w4');
   mainwindow.appendChild(div1);
   const title = document.createElement('h1');
-  //title-p2w4
+  // title-p2w4
   title.setAttribute('class', 'title-p2w4');
   const titleText = document.createTextNode(projects[x].title);
   title.appendChild(titleText);
   div1.appendChild(title);
   const closetapimg = document.createElement('img');
-  //close-p2w4
+  // close-p2w4
   closetapimg.setAttribute('class', 'close-p2w4');
   closetapimg.setAttribute('src', 'img/x-lg.svg');
   closetapimg.setAttribute('id', 'btn-d2'); // modify
@@ -139,7 +139,7 @@ function createProjectPopUp() {
   const tech = projects[x].technologies;
   for (let i = 0; i < 3; i += 1) {
     const a = document.createElement('a');
-    //tech-p2w4
+    // tech-p2w4
     a.setAttribute('class', 'tech-p2w4');
     const buttontext = document.createTextNode(tech[i]);
     a.appendChild(buttontext);
@@ -159,20 +159,20 @@ function createProjectPopUp() {
   div3.appendChild(div31);
 
   const discription = document.createElement('p');
-  //discription-p2w4
+  // discription-p2w4
   discription.setAttribute('class', 'discription-p2w4');
   const discriptiontext = document.createTextNode(projects[x].discription);
   discription.appendChild(discriptiontext);
   div31.appendChild(discription);
 
   const div311 = document.createElement('div');
-  ////div311-p2w4
+  /// /div311-p2w4
   div311.setAttribute('class', 'div311-p2w4');
   div31.appendChild(div311);
 
   const alastbutton1 = document.createElement('a');
   alastbutton1.setAttribute('href', projects[x].linkToLive);
-  //bg-orange
+  // bg-orange
   alastbutton1.setAttribute('class', ' bg-orange');
   const alastbuttontext = document.createTextNode('See live ');
   alastbutton1.appendChild(alastbuttontext);
