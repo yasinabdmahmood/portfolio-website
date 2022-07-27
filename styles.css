@@ -1586,7 +1586,6 @@ body {
     background: white;
     position: relative;
     z-index: 5;
-    border: 1px solid gold; /* to be removed later */
   }
 
   .div1-p2w4 {
