@@ -307,7 +307,7 @@
         <br class="hide-for-desctop"> chat please get in 
         <br class="hide-for-desctop"> touch.
     </h2>
-    <form class="form1" action="https://formspree.io/f/xvoljkdk" method="post">
+    <form class="form1"  id="mobile-form" action="https://formspree.io/f/xvoljkdk" method="post">
 
         <ul class="form">
           <li>
@@ -347,10 +347,14 @@
           <li>
             <button class="submit-button" type="submit">Get in touch</button>
           </li>
+          <li>
+            <span class="error"></span>
+          </li>
         </ul>
       </form>
       <form
         class="form2"
+        id="desktop-form"
         action="https://formspree.io/f/xvoljkdk"
         method="post"
       >
@@ -399,15 +403,15 @@
               id="text-area"
               name="message"
               maxlength="500"
+              placeholder="Hello Mariane. Glad to see you"
               required
-            >
- Hello Mariane. Glad to see you |
-                </textarea
-            >
+            ></textarea>
           </li>
           <li class="five">
             <button class="submit-button" type="submit">Get in touch</button>
+            <span class="error"></span>
           </li>
+         
         </ul>
       </form>
       <footer class="footer2">
