@@ -227,7 +227,7 @@ form.addEventListener('submit', (event) => {
 
 
 /////////// Storage Project /////////////////
-
+let id=['full-name','email','textarea','fname','lname','Email-Address','text-area'];
 let data={mobileFullName:"",mobileEmail:"",mobileText:"",desktopFirstName:"",desktopLastName:"", desktopEmail:"",desktopText:""
 }
 if(!localStorage.getItem('data')) {
@@ -274,11 +274,7 @@ if(!localStorage.getItem('data')) {
     document.getElementById('text-area').value= data.desktopText;
   }
 
+  for(let i=0;i<id.length;i+=1){
+    document.getElementById(id[i]).onchange=copyInputFieldsToLocaStorage;
+  }
   
-  document.getElementById('full-name').onchange=copyInputFieldsToLocaStorage;
-  document.getElementById('email').onchange=copyInputFieldsToLocaStorage;
-  document.getElementById('textarea').onchange=copyInputFieldsToLocaStorage;
-  document.getElementById('fname').onchange=copyInputFieldsToLocaStorage;
-  document.getElementById('lname').onchange=copyInputFieldsToLocaStorage;
-  document.getElementById('Email-Address').onchange=copyInputFieldsToLocaStorage;
-  document.getElementById('text-area').onchange=copyInputFieldsToLocaStorage;
