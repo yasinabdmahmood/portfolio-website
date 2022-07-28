@@ -224,3 +224,51 @@ form.addEventListener('submit', (event) => {
 
   form.querySelector('.error').innerHTML = message;
 });
+
+/// //////// Storage Project /////////////////
+const id = ['full-name', 'email', 'textarea', 'fname', 'lname', 'Email-Address', 'text-area'];
+let data = {
+  mobileFullName: '', mobileEmail: '', mobileText: '', desktopFirstName: '', desktopLastName: '', desktopEmail: '', desktopText: '',
+};
+function getInputFields() {
+  data.mobileFullName = document.getElementById('full-name').value;
+  data.mobileEmail = document.getElementById('email').value;
+  data.mobileText = document.getElementById('textarea').value;
+  data.desktopFirstName = document.getElementById('fname').value;
+  data.desktopLastName = document.getElementById('lname').value;
+  data.desktopEmail = document.getElementById('Email-Address').value;
+  data.desktopText = document.getElementById('text-area').value;
+  return data;
+}
+
+function setInputFields() {
+  document.getElementById('full-name').value = data.mobileFullName;
+  document.getElementById('email').value = data.mobileEmail;
+  document.getElementById('textarea').value = data.mobileText;
+  document.getElementById('fname').value = data.desktopFirstName;
+  document.getElementById('lname').value = data.desktopLastName;
+  document.getElementById('Email-Address').value = data.desktopEmail;
+  document.getElementById('text-area').value = data.desktopText;
+}
+
+function copyLocalStorageToInputFields() {
+  data = JSON.parse(localStorage.getItem('data'));
+  setInputFields();
+}
+
+function copyInputFieldsToLocaStorage() {
+  data = getInputFields();
+
+  localStorage.setItem('data', JSON.stringify(data));
+  copyLocalStorageToInputFields();
+}
+
+if (!localStorage.getItem('data')) {
+  copyInputFieldsToLocaStorage();
+} else {
+  copyLocalStorageToInputFields();
+}
+
+for (let i = 0; i < id.length; i += 1) {
+  document.getElementById(id[i]).onchange = copyInputFieldsToLocaStorage;
+}
