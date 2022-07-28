@@ -197,3 +197,41 @@ function createProjectPopUp() {
 for (let i = 1; i <= 7; i += 1) {
   document.getElementById(`card${i.toString()}`).onclick = createProjectPopUp;
 }
+  
+
+///////////Add Javascript form validator////////////////
+
+let form=null;
+
+if(window.innerWidth<=768){
+    form = document.getElementById('mobile-form');
+   
+   
+}
+else{
+    form = document.getElementById('desktop-form');  
+    
+     
+}
+
+
+const email=form.elements['email']
+let message=null;
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    let emailValue=email.value;
+   
+    if(emailValue===emailValue.toLowerCase()){
+        message=""
+        form.submit();
+        
+    }
+    else{
+        message="please only enter lower case characters for email field"
+    }
+    
+    form.querySelector('#error').innerHTML=message;
+
+   
+});
