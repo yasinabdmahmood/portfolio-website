@@ -224,3 +224,61 @@ form.addEventListener('submit', (event) => {
 
   form.querySelector('.error').innerHTML = message;
 });
+
+
+/////////// Storage Project /////////////////
+
+let data={mobileFullName:"",mobileEmail:"",mobileText:"",desktopFirstName:"",desktopLastName:"", desktopEmail:"",desktopText:""
+}
+if(!localStorage.getItem('data')) {
+   copyInputFieldsToLocaStorage();
+    console.log("Does not exist")
+    
+  } else {
+    copyLocalStorageToInputFields();
+    console.log("exist")
+  }
+
+  function copyInputFieldsToLocaStorage(){
+    console.log('data is ')
+    data=getInputFields();
+    console.log('data is ')
+    console.log(data)
+    localStorage.setItem('data',JSON.stringify(data))
+    copyLocalStorageToInputFields();
+  }
+
+  function getInputFields(){
+    data.mobileFullName=document.getElementById('full-name').value;
+    data.mobileEmail=document.getElementById('email').value;
+    data.mobileText=document.getElementById('textarea').value;
+    data.desktopFirstName=document.getElementById('fname').value;
+    data.desktopLastName=document.getElementById('lname').value;
+    data.desktopEmail=document.getElementById('Email-Address').value;
+    data.desktopText=document.getElementById('text-area').value;
+    return data;
+  }
+
+  function copyLocalStorageToInputFields(){
+    data=JSON.parse(localStorage.getItem('data'));
+    setInputFields();
+  }
+  function setInputFields(){
+    
+    document.getElementById('full-name').value =data.mobileFullName;
+    document.getElementById('email').value= data.mobileEmail;
+    document.getElementById('textarea').value= data.mobileText;
+    document.getElementById('fname').value= data.desktopFirstName;
+    document.getElementById('lname').value= data.desktopLastName;
+    document.getElementById('Email-Address').value= data.desktopEmail;
+    document.getElementById('text-area').value= data.desktopText;
+  }
+
+  
+  document.getElementById('full-name').onchange=copyInputFieldsToLocaStorage;
+  document.getElementById('email').onchange=copyInputFieldsToLocaStorage;
+  document.getElementById('textarea').onchange=copyInputFieldsToLocaStorage;
+  document.getElementById('fname').onchange=copyInputFieldsToLocaStorage;
+  document.getElementById('lname').onchange=copyInputFieldsToLocaStorage;
+  document.getElementById('Email-Address').onchange=copyInputFieldsToLocaStorage;
+  document.getElementById('text-area').onchange=copyInputFieldsToLocaStorage;
