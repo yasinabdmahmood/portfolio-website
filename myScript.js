@@ -222,5 +222,5 @@ form.addEventListener('submit', (event) => {
     message = 'please only enter lower case characters for email field';
   }
 
-  form.querySelector('error').innerHTML = message;
+  form.querySelector('.error').innerHTML = message;
 });
