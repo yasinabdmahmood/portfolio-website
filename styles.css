@@ -1576,11 +1576,11 @@ body {
   align-self: stretch;
 }
 
-#error {
-  color : red;
+.error {
+  display: flex;
+  color: red;
   text-align: center;
 }
-
 
 @media only screen and (min-width: 768px) {
   .main-window {
